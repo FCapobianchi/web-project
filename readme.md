@@ -20,11 +20,15 @@ Requirements
 Installation
 ------------
 
-The best way to install Web Project is using Composer. If you don't have Composer yet,
-download it following [the instructions](https://doc.nette.org/composer). Then use command:
+This project require [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) and [Composer](https://getcomposer.org) installed on your computer. 
+From your command line:
 
 	composer create-project fcapobianchi/web-project path/to/install
 	cd path/to/install
+	composer update
+	npm install
+	npx gulp build
+
 
 
 Make directories `temp/` and `log/` writable.
