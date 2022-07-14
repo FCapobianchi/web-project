@@ -1,4 +1,4 @@
-Nette Web Project
+FCapobianchi Nette Web Project
 =================
 
 This is a simple, skeleton application using the [Nette](https://nette.org). This is meant to
