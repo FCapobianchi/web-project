@@ -27,7 +27,7 @@ From your command line:
 	cd path/to/install
 	composer update
 	npm install
-	npx gulp build
+	npm start
 
 
 
