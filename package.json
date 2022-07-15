@@ -26,6 +26,6 @@
     "nette.ajax.js": "^2.3.0"
   },
   "scripts": {
-    "deployAssets": "node deployAssets.js"
+    "start": "node deployAssets.js"
   }
 }
