@@ -15,14 +15,17 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
+    "@popperjs/core": "^2.11.5",
     "bootstrap-table": "^1.20.2",
     "cpr": "^3.0.1",
     "daterangepicker": "^3.1.0",
     "jquery": "^3.6.0",
     "jquery-ui": "^1.13.2",
-    "js-cookie": "^3.0.1"
+    "js-cookie": "^3.0.1",
+    "nette-forms": "^3.3.1",
+    "nette.ajax.js": "^2.3.0"
   },
   "scripts": {
-    "start": "node assets.js"
+    "deployAssets": "node deployAssets.js"
   }
 }
