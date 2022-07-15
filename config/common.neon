@@ -1,5 +1,15 @@
 parameters:
-
+	mail:
+		# use SmtpMailer
+		smtp: FALSE		# (bool) defaults to false
+		host: ""		# (string)
+		port: 465		# (int)
+		username: ""	# (string)
+		password: ""	# (string)
+		timeout: 60		# (int)
+		secure: null	# (ssl|tls|null) defaults to null
+		clientHost: ""	# (string) defaults to $_SERVER['HTTP_HOST']
+		persistent: FALSE	# (bool) defaults to false
 
 application:
 	errorPresenter: Error
@@ -15,3 +25,9 @@ di:
 	export:
 		parameters: no
 		tags: no
+
+constants: 
+	APPURL: 'http://localhost/'
+	APPNAME: 'APPNAME'
+	APPEMAIL: 'email@domain.ext'
+	DEBUG: FALSE
