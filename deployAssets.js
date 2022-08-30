@@ -91,6 +91,12 @@ cpr('node_modules/daterangepicker/daterangepicker.css', 'www/assets/daterangepic
   confirm: true
 }, function(err, files) {});
 
+cpr('node_modules/bootstrap-select/dist/', 'www/assets/bootstrap-select', {
+  deleteFirst: true,
+  overwrite: true,
+  confirm: true
+}, function(err, files) {});
+
 cpr('.gitignore-sample', '.gitignore', {
   deleteFirst: true,
   overwrite: true,
