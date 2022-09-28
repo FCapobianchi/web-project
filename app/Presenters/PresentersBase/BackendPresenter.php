@@ -5,21 +5,18 @@ declare(strict_types=1);
 namespace App\Presenters;
 
 use Nette;
-use Tracy\Debugger;
 
 class BackendPresenter extends Nette\Application\UI\Presenter {
 
     public $authorizator;
     private $cookies;
 
-    public function __construct( ) { 
-        Debugger::enable();
-    }
+    public function __construct( ) { }
     
     protected function startup(): void {
         parent::startup();
         if(!$this->getUser()->isLoggedIn()){
-            $this->redirect('Homepage:default',['backlink' => $this->storeRequest()]);
+            $this->redirect('Homepage:default');
         }
 
         $this->getUser()->setAuthorizator($this->authorizator);

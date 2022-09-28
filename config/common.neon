@@ -11,6 +11,7 @@ parameters:
 		clientHost: ""	# (string) defaults to $_SERVER['HTTP_HOST']
 		persistent: FALSE	# (bool) defaults to false
 
+
 application:
 	errorPresenter: Error
 	mapping:
@@ -23,8 +24,9 @@ session:
 
 di:
 	export:
-		parameters: no
+		parameters: yes
 		tags: no
+
 
 constants: 
 	APPURL: 'http://localhost/'

@@ -14,13 +14,16 @@ If you like Nette, **[please make a donation now](https://nette.org/donate)**. T
 Requirements
 ------------
 
-- Web Project for Nette 3.1 requires PHP 7.2
+- Web Project for Nette 3.1 requires installed on your computer:
+	[Composer](https://getcomposer.org)
+	[Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com))
+	PHP >=7.4
+	MySQL
 
 
 Installation
 ------------
 
-This project require [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) and [Composer](https://getcomposer.org) installed on your computer. 
 From your command line:
 
 	composer create-project fcapobianchi/web-project path/to/install
@@ -28,7 +31,6 @@ From your command line:
 	composer update
 	npm install
 	npm start
-
 
 
 Make directories `temp/` and `log/` writable.
