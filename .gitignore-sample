@@ -3,5 +3,5 @@ node_modules
 package-lock.json
 composer.lock
 log/*
-cache/*
+temp/*
 .DS_Store
