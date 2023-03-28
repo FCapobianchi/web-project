@@ -12,6 +12,15 @@ parameters:
 		persistent: FALSE	# (bool) defaults to false
 
 
+http:
+	#proxy: 127.0.0.1
+	# headers that are sent with each request
+	headers:
+		X-Powered-By: ""
+		X-Content-Type-Options: nosniff
+		X-XSS-Protection: '1; mode=block'
+
+
 application:
 	errorPresenter: Error
 	mapping:
@@ -33,3 +42,5 @@ constants:
 	APPNAME: 'APPNAME'
 	APPEMAIL: 'email@domain.ext'
 	DEBUG: FALSE
+	MAINTENANCE: FALSE
+	SENDMAIL: TRUE

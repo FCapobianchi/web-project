@@ -1,4 +1,4 @@
-/* CUSTOM CSS FILE */
+/* CUSTOM JS FILE */
 
 // $(function() {
 //     console.log( "ready!" );
