@@ -43,7 +43,13 @@ cpr('node_modules/js-cookie/dist', 'www/assets/js-cookie/', {
 }, function(err, files) {});
 
 
-cpr('node_modules/moment/dist', 'www/assets/moment/', {
+cpr('node_modules/moment/locale', 'www/assets/moment/locale', {
+  deleteFirst: true,
+  overwrite: true,
+  confirm: true
+}, function(err, files) {});
+
+cpr('node_modules/moment/min', 'www/assets/moment/', {
   deleteFirst: true,
   overwrite: true,
   confirm: true
