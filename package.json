@@ -25,7 +25,8 @@
     "jquery-ui": "^1.13.2",
     "js-cookie": "^3.0.1",
     "nette-forms": "^3.3.1",
-    "nette.ajax.js": "^2.3.0"
+    "nette.ajax.js": "^2.3.0",
+    "tableexport.jquery.plugin": "^1.27.0"
   },
   "scripts": {
     "start": "node deployAssets.js"

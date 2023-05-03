@@ -103,6 +103,18 @@ cpr('node_modules/bootstrap-select/dist/', 'www/assets/bootstrap-select', {
   confirm: true
 }, function(err, files) {});
 
+cpr('node_modules/tableexport.jquery.plugin/tableExport.min.js', 'www/assets/tableexport.jquery.plugin/tableExport.min.js', {
+  deleteFirst: true,
+  overwrite: true,
+  confirm: true
+}, function(err, files) {});
+
+cpr('node_modules/tableexport.jquery.plugin/libs', 'www/assets/tableexport.jquery.plugin/libs', {
+  deleteFirst: true,
+  overwrite: true,
+  confirm: true
+}, function(err, files) {});
+
 cpr('.gitignore-sample', '.gitignore', {
   deleteFirst: true,
   overwrite: true,
